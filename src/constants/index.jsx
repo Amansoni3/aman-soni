@@ -13,10 +13,6 @@ import projectImage4 from "../assets/project4.jpeg";
 
 import { RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { AiOutlineJavaScript } from "react-icons/ai";
 import { SiRedux } from "react-icons/si";
 
 export const NAVIGATION_LINKS = [
@@ -43,6 +39,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/Amansoni3/aman-soni",
+    liveLink : ""
   },
   {
     id: 2,
@@ -51,6 +48,7 @@ export const PROJECTS = [
       "A food ordering app leveraging real-time restaurant data via the live Swiggy API, enabling users to search for their favorite restaurants and dishes with a robust search functionality. The app features a dynamic Add to Cart option powered by Redux Toolkit for state management, ensuring seamless user interaction. Comprehensive testing is implemented using the Jest testing library to guarantee reliability and performance.",
     image: projectImage2,
     githubLink: "https://github.com/Amansoni3/swiggyapp/tree/redux",
+    liveLink : ""
   },
   {
     id: 3,
@@ -59,6 +57,7 @@ export const PROJECTS = [
       "This project delivers accurate, up-to-date information about movies and TV shows using The Movie Database (TMDB) API, known for its reliability and fast response. Built with React.js, it features a user-friendly, responsive design compatible with all devices. Axios handles efficient data fetching via GET requests, and React-Redux Toolkit ensures seamless state management and performance.",
     image: projectImage3,
     githubLink: "https://github.com/Amansoni3/movieapp",
+    liveLink : ""
   },
   {
     id: 4,
@@ -67,6 +66,7 @@ export const PROJECTS = [
       "I successfully completed a 100 Days Challenge in JavaScript, solving one coding question each day. This consistent practice allowed me to strengthen my problem-solving skills, deepen my understanding of JavaScript concepts, and build a disciplined approach to coding. The challenge not only enhanced my technical expertise but also fostered a habit of continuous learning and improvement.",
     image: projectImage4,
     githubLink: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
+    liveLink : ""
   },
   // {
   //   id: 5,
