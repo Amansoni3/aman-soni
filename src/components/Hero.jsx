@@ -1,6 +1,7 @@
 import { HERO } from "../constants"
 import amanImage from "../assets/aman.jpg"
 import { motion } from "framer-motion"
+import resume from "../assets/amansoni.pdf"
 
 const Hero = () => {
     return (
@@ -15,10 +16,17 @@ const Hero = () => {
                     {HERO.name}
                 </h2>
                 <p className="p-2 text-3xl tracking-tighter lg:text-4xl">{HERO.greet}</p>
-                <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+                <p className="mb-4 p-2 text-xl">{HERO.description}</p>
+                <a
+                    className="bg-white mb-8 ml-2 font-bold p-2 text-black text-xl rounded-lg"
+                    href={resume}
+                    download="AmanSoni_Resume.pdf"
+                >
+                    Download Cv
+                </a>
             </motion.div>
             <motion.div
-                className="w-full md:w-1/2 lg:p-8"
+                className="w-full md:w-1/2 lg:p-8 mt-8 lg:mt-0"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
