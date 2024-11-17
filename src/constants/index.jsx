@@ -1,5 +1,7 @@
 import {
+  FaCss3Alt,
   FaGithub,
+  FaHtml5,
   FaLinkedin,
 } from "react-icons/fa6";
 
@@ -7,15 +9,15 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
 
-import { RiReactjsLine } from "react-icons/ri";
+
+import { RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { AiOutlineJavaScript } from "react-icons/ai";
+import { SiRedux } from "react-icons/si";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -40,137 +42,151 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/Amansoni3/aman-soni",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Food Ordering App",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "A food ordering app leveraging real-time restaurant data via the live Swiggy API, enabling users to search for their favorite restaurants and dishes with a robust search functionality. The app features a dynamic Add to Cart option powered by Redux Toolkit for state management, ensuring seamless user interaction. Comprehensive testing is implemented using the Jest testing library to guarantee reliability and performance.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/Amansoni3/swiggyapp/tree/redux",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Movix App",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "This project delivers accurate, up-to-date information about movies and TV shows using The Movie Database (TMDB) API, known for its reliability and fast response. Built with React.js, it features a user-friendly, responsive design compatible with all devices. Axios handles efficient data fetching via GET requests, and React-Redux Toolkit ensures seamless state management and performance.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/Amansoni3/movieapp",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "100 Days Challenge In JavaScript",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "I successfully completed a 100 Days Challenge in JavaScript, solving one coding question each day. This consistent practice allowed me to strengthen my problem-solving skills, deepen my understanding of JavaScript concepts, and build a disciplined approach to coding. The challenge not only enhanced my technical expertise but also fostered a habit of continuous learning and improvement.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
   },
-  {
-    id: 5,
-    name: "Blog Platform",
-    description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
-  },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
-  },
+  // {
+  //   id: 5,
+  //   name: "Blog Platform",
+  //   description:
+  //     "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+  //   image: projectImage5,
+  //   githubLink: "https://github.com/user/blog-platform",
+  // },
+  // {
+  //   id: 6,
+  //   name: "100 Days Challenge In JavaScript",
+  //   description:
+  //     "I successfully completed a 100 Days Challenge in JavaScript, solving one coding question each day. This consistent practice allowed me to strengthen my problem-solving skills, deepen my understanding of JavaScript concepts, and build a disciplined approach to coding. The challenge not only enhanced my technical expertise but also fostered a habit of continuous learning and improvement.",
+  //   image: projectImage6,
+  //   githubLink: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
+  // },
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Aman Soni discovered his passion for technology early on, which led him to pursue a Bachelor of Technology in Computer Science Engineering from the ITM Group of Institutions, graduating in 2023. During his academic journey, he began building his expertise in frontend development and crafting user-centric web applications.",
+  
+  "Following his graduation, Aman embarked on his professional journey with a 1-year internship at Numeric Infosystem Pvt. Ltd., where he refined his skills in React.js and reusable component development. He then contributed as a React Developer at Escale Solutions for 8 months, where he collaborated with clients and cross-functional teams on impactful projects.",
+  
+  "By 2024, Aman had already established himself as a versatile frontend developer, proficient in React.js, Next.js, and state management tools like Redux Toolkit. His projects, such as TalenCred, Shubham.co, and CSRL, showcased his ability to merge performance optimization techniques like lazy loading with visually engaging and SEO-optimized designs.",
+  
+  "Driven by his commitment to delivering exceptional user experiences, Aman brings a multi-disciplinary approach to his work. From developing dynamic UIs using Tailwind CSS and Material-UI to conducting meticulous manual, unit, and integration testing, Aman ensures every project is polished and impactful.",
+  
+  "Outside of his professional endeavors, Aman continues to explore the latest in web technologies, combining innovation with creativity to craft unforgettable digital experiences."
 ];
+
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+    experience: "1.8 years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "0.8 years",
   },
   {
-    icon: <AiOutlineJavaScript className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
+    icon: <SiRedux className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Redux",
+    experience: "1 years",
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <RiJavascriptFill className="text-4xl text-yellow-600 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "1.8 year",
   },
   {
-    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Node.js",
+    icon: <FaHtml5 className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Html",
     experience: "2+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <FaCss3Alt className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Css",
+    experience: "1.8 year",
   },
+  {
+    icon: <RiTailwindCssFill className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Tailwind Css",
+    experience: "1.8 year",
+  }
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "React Developer",
+    company: "Escale Solutions",
+    duration: "December 2023 - July 2024",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "Contributed to the development of responsive web applications using React.js and Next.js. Worked closely with clients and cross-functional teams to deliver projects like TalenCred, Shubham.co, and CSRL. Key responsibilities included implementing performance optimization techniques like lazy loading, managing state with Redux Toolkit, integrating APIs, and ensuring SEO compliance.",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "React Developer Intern",
+    company: "Numeric Infosystem Pvt. Ltd.",
+    duration: "December 2022 - November 2023",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "Gained hands-on experience in building user-friendly UIs using React.js. Developed reusable components, managed state with Redux, and resolved bugs to improve application performance. Collaborated with the team to deliver high-quality projects and ensure seamless frontend-backend communication.",
   },
 ];
+
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Bachelor of Technology in Computer Science Engineering",
+    institution: "ITM Group of Institutions",
+    duration: "2019 - 2023",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Developed a strong foundation in computer science and software engineering principles. Focused on web development, frontend technologies, and state management. Graduated with a CGPA of 7.44.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Higher Secondary Certificate (HSC)",
+    institution: "Gwalior Public School (MP Board)",
+    duration: "2017 - 2019",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Studied science with a focus on mathematics and computer science, laying the groundwork for a career in technology.",
+  },
+  {
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Pragati Vidya Peeth (CBSE Board)",
+    duration: "2016 - 2017",
+    description:
+      "Completed foundational education with an emphasis on academics and extracurricular activities, developing key analytical and problem-solving skills.",
   },
 ];
 
+
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://github.com/",
+    href: "https://github.com/Amansoni3",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/reactamansoni/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
