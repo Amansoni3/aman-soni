@@ -47,7 +47,7 @@ const Projects = () => {
 
                             <div className="flex flex-col md:flex-row gap-4">
                                 <a
-                                    href={project.githubLink}
+                                    href={project.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300"
