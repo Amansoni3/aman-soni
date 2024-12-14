@@ -66,7 +66,7 @@ export const PROJECTS = [
       "This project delivers accurate, up-to-date information about movies and TV shows using The Movie Database (TMDB) API, known for its reliability and fast response. Built with React.js, it features a user-friendly, responsive design compatible with all devices. Axios handles efficient data fetching via GET requests, and React-Redux Toolkit ensures seamless state management and performance.",
     image: projectImage3,
     githubLink: "https://github.com/Amansoni3/movieapp",
-    liveLink: ""
+    liveLink: "https://movieapp-dusky.vercel.app/"
   },
   {
     id: 5,
