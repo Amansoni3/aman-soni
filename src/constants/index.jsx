@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/Amansoni3/aman-soni",
+    github: "https://github.com/Amansoni3/aman-soni",
     liveLink: ""
   },
   {
@@ -56,7 +56,7 @@ export const PROJECTS = [
     description:
       "A food ordering app leveraging real-time restaurant data via the live Swiggy API, enabling users to search for their favorite restaurants and dishes with a robust search functionality. The app features a dynamic Add to Cart option powered by Redux Toolkit for state management, ensuring seamless user interaction. Comprehensive testing is implemented using the Jest testing library to guarantee reliability and performance.",
     image: projectImage2,
-    githubLink: "https://github.com/Amansoni3/swiggyapp/tree/redux",
+    github: "https://github.com/Amansoni3/swiggyapp/tree/redux",
     liveLink: ""
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS = [
     description:
       "This project delivers accurate, up-to-date information about movies and TV shows using The Movie Database (TMDB) API, known for its reliability and fast response. Built with React.js, it features a user-friendly, responsive design compatible with all devices. Axios handles efficient data fetching via GET requests, and React-Redux Toolkit ensures seamless state management and performance.",
     image: projectImage3,
-    githubLink: "https://github.com/Amansoni3/movieapp",
+    github: "https://github.com/Amansoni3/movieapp",
     liveLink: "https://movieapp-dusky.vercel.app/"
   },
   {
@@ -74,25 +74,9 @@ export const PROJECTS = [
     description:
       "I successfully completed a 100 Days Challenge in JavaScript, solving one coding question each day. This consistent practice allowed me to strengthen my problem-solving skills, deepen my understanding of JavaScript concepts, and build a disciplined approach to coding. The challenge not only enhanced my technical expertise but also fostered a habit of continuous learning and improvement.",
     image: projectImage4,
-    githubLink: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
+    github: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
     liveLink: ""
   },
-  // {
-  //   id: 5,
-  //   name: "Blog Platform",
-  //   description:
-  //     "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-  //   image: projectImage5,
-  //   githubLink: "https://github.com/user/blog-platform",
-  // },
-  // {
-  //   id: 6,
-  //   name: "100 Days Challenge In JavaScript",
-  //   description:
-  //     "I successfully completed a 100 Days Challenge in JavaScript, solving one coding question each day. This consistent practice allowed me to strengthen my problem-solving skills, deepen my understanding of JavaScript concepts, and build a disciplined approach to coding. The challenge not only enhanced my technical expertise but also fostered a habit of continuous learning and improvement.",
-  //   image: projectImage6,
-  //   githubLink: "https://github.com/Amansoni3/100DaysChallengeInJavaScript",
-  // },
 ];
 
 export const BIO = [
